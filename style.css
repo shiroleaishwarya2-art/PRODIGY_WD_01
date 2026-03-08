@@ -1,0 +1,52 @@
+body{
+margin:0;
+font-family:Arial;
+}
+
+#navbar{
+position:fixed;
+top:0;
+width:100%;
+background:#131921;
+padding:15px;
+}
+
+#navbar ul{
+list-style:none;
+display:flex;
+justify-content:center;
+margin:0;
+padding:0;
+}
+
+#navbar ul li{
+margin:0 20px;
+}
+
+#navbar ul li a{
+color:white;
+text-decoration:none;
+font-size:18px;
+}
+
+#navbar ul li a:hover{
+color:#00e5ff;
+}
+
+.content{
+margin-top:100px;
+height:2000px;
+padding:20px;
+}
+
+.thankyou{
+height:400px;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+.thankyou h1{
+font-size:40px;
+color:#232f3e;
+}
